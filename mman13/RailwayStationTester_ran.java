@@ -22,7 +22,17 @@ public class RailwayStationTester_ran {
         Train f12 = new Train("Jerusalem", 10, 50, 210, 250, 250, 40);
         Train f13 = new Train("Jerusalem", 10, 50, 210, 250, 250, 40);
         Train f14 = new Train("Jerusalem", 10, 50, 210, 250, 250, 40);
-
+        Train f15 = new Train("Rio", 1, 30, 70, 250, 250, 12);
+        Train f16 = new Train("Rio", 12, 0, 90, 200, 200, 30);
+        Train f17 = new Train("Rio", 23, 59, 140, 28, 150, 36);
+        Train f18 = new Train("Rio", 18, 12, 155, 50, 100, 18);
+        Train f19 = new Train("Rio", 22, 3, 190, 70, 140, 11);
+        Train f20 = new Train("Tel Aviv", 1, 20, 177, 220, 220, 20);
+        Train f21 = new Train("Tel Aviv", 2, 42, 120, 180, 180, 34);
+        Train f22 = new Train("Tel Aviv", 10, 38, 68, 140, 190, 12);
+        Train f23 = new Train("Tel Aviv", 8, 40, 59, 3, 168, 28);
+        Train f24 = new Train("Tel Aviv", 0, 0, 210, 9, 170, 13);
+        Train f25 = new Train("Tel Aviv", 23, 59, 210, 25, 120, 25);
 
         System.out.println("\t t: \t" + rs.addTrain(f11) + "\t;\t" + f11);
         System.out.println("\t t: \t" + rs.addTrain(f12) + "\t;\t" + f12);
